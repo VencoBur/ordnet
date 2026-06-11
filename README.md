@@ -57,6 +57,54 @@ The contract exposes the following key view functions:
 - `search(string query)`
 - `getShardsByInscription(string inscriptionId)`
 
+## On-Chain Data Source
+
+All shard data used in OrdNET is stored in a real Litecoin Ordinal inscription.
+
+- **Ordinal Inscription**: [View on OrdLiteverse](https://ordliteverse.com/inscription/8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0)
+- **Inscription Transaction**: `8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0`
+
+The inscribed JSON contains the full dual-index (Web2 + Web3) for 5 shards. This JSON is fetched and indexed by the off-chain indexer and stored on the `OrdinalReassemblerV2` contract on LitVM Testnet.
+
+**Example of the inscribed JSON** (abbreviated):
+
+```json
+{
+  "meta": {
+    "inscriptionId": "OII00000000-demo",
+    "shard_index_id": "OISltc00000000-demo",
+    "inscriptionType": "ordinal-index-shard",
+    "totalShards": 5,
+    "chain": "litecoin",
+    ...
+  },
+  "shards": [
+    {
+      "id": 1,
+      "title": "Litecoin Foundation",
+      "web2": { "url": "https://litecoin.com/litecoin-foundation", ... },
+      ...
+    }
+    ...
+  ]
+}
+```
+
+## Screenshots
+
+### Search Results (Live Contract Data)
+![Search Results](search-results.png)
+
+### Web2 View (Locked for Web3-only shards)
+![Web2 Locked](Web2-locked.png)
+
+### Web3 View (ZNS Connect example)
+![Web3 View](wWeb3-load.png)
+
+### Web2 View (litecoin.com example)
+![Web3 View](Web2-load.png)
+
+
 ## Getting Started (Local Development)
 
 ```bash
@@ -69,3 +117,4 @@ npm install
 
 # Start development server
 npm run dev
+```
