@@ -6,7 +6,9 @@ OrdNET demonstrates a practical approach to sharded web browsing by combining on
 
 ## Live Demo
 
-🔗 **Coming soon** — Deployed via Vercel
+🔗 **[https://ordnet.vercel.app/](https://ordnet.vercel.app/)**
+
+> Currently deployed on Vercel with the latest production build.
 
 ## What It Does
 
