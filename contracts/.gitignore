@@ -1,0 +1,15 @@
+# Hardhat
+node_modules
+cache
+artifacts
+typechain
+typechain-types
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+.DS_Store
+*.log

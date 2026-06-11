@@ -1,0 +1,115 @@
+[
+  {
+    "shardId": 1,
+    "title": "Litecoin Foundation",
+    "web2Url": "https://litecoin.com/litecoin-foundation",
+    "web2Description": "Official Litecoin Foundation website",
+    "web3Url": "",
+    "web3Description": "",
+    "browserDefaultTab": "web2",
+    "web2Locked": false,
+    "web3Locked": true,
+    "searchTags": [
+      "litecoin",
+      "ltc",
+      "ltc official",
+      "litecoin foundation",
+      "ltc foundation"
+    ],
+    "inscriptionId": "OII00000000-demo",
+    "shardIndexId": "OISltc00000000-demo",
+    "inscriptionTxid": "8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0",
+    "chain": "litecoin"
+  },
+  {
+    "shardId": 2,
+    "title": "Litecoin",
+    "web2Url": "https://litecoin.com",
+    "web2Description": "Official Litecoin website",
+    "web3Url": "",
+    "web3Description": "",
+    "browserDefaultTab": "web2",
+    "web2Locked": false,
+    "web3Locked": true,
+    "searchTags": [
+      "litecoin",
+      "ltc",
+      "ltc official",
+      "litecoin.com"
+    ],
+    "inscriptionId": "OII00000000-demo",
+    "shardIndexId": "OISltc00000000-demo",
+    "inscriptionTxid": "8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0",
+    "chain": "litecoin"
+  },
+  {
+    "shardId": 3,
+    "title": "LitVM Ecosystem",
+    "web2Url": "",
+    "web2Description": "",
+    "web3Url": "https://testnet.litvm.com",
+    "web3Description": "LitVM Testnet Ecosystem Portal",
+    "browserDefaultTab": "web3",
+    "web2Locked": true,
+    "web3Locked": false,
+    "searchTags": [
+      "litvm",
+      "ecosystem",
+      "testnet",
+      "portal",
+      "liteforge",
+      "litvm testnet"
+    ],
+    "inscriptionId": "OII00000000-demo",
+    "shardIndexId": "OISltc00000000-demo",
+    "inscriptionTxid": "8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0",
+    "chain": "litecoin"
+  },
+  {
+    "shardId": 4,
+    "title": "ZNS Connect",
+    "web2Url": "",
+    "web2Description": "",
+    "web3Url": "https://zns.bio",
+    "web3Description": "Web3 Domain Identity on LitVM",
+    "browserDefaultTab": "web3",
+    "web2Locked": true,
+    "web3Locked": false,
+    "searchTags": [
+      "zns",
+      "domain",
+      "identity",
+      "litvm",
+      "zns connect",
+      "web3 domain"
+    ],
+    "inscriptionId": "OII00000000-demo",
+    "shardIndexId": "OISltc00000000-demo",
+    "inscriptionTxid": "8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0",
+    "chain": "litecoin"
+  },
+  {
+    "shardId": 5,
+    "title": "LitVM DEX Hub",
+    "web2Url": "",
+    "web2Description": "",
+    "web3Url": "https://clob.litvmswap.com",
+    "web3Description": "LitVM Hybrid DEX (CLOB)",
+    "browserDefaultTab": "web3",
+    "web2Locked": true,
+    "web3Locked": false,
+    "searchTags": [
+      "dex",
+      "swap",
+      "litvmswap",
+      "defi",
+      "litvm",
+      "clob",
+      "hybrid dex"
+    ],
+    "inscriptionId": "OII00000000-demo",
+    "shardIndexId": "OISltc00000000-demo",
+    "inscriptionTxid": "8e7045fdfc041122c36443f5709edb613494a75f760ec318de911555bb1bfb78i0",
+    "chain": "litecoin"
+  }
+]

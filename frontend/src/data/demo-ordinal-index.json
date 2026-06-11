@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "inscriptionId": "OII00000000-demo",
+    "shard_index_id": "OISltc00000000-demo",
+    "inscriptionType": "ordinal-index-shard",
+    "totalShards": 5,
+    "chain": "litecoin",
+    "project": "OrdNET-DEMO",
+    "title": "Universal Sharded Network Index",
+    "description": "Web2 + Web3 browser powered by Litecoin Ordinals + LitVM.",
+    "version": "0.1"
+  },
+  "shards": [
+    {
+      "id": 1,
+      "title": "Litecoin Foundation",
+      "web2": {
+        "url": "https://litecoin.com/litecoin-foundation",
+        "description": "Official Litecoin Foundation website"
+      },
+      "web3": null,
+      "browser": {
+        "defaultTab": "web2",
+        "web2Locked": false,
+        "web3Locked": true
+      },
+      "searchTags": ["litecoin", "ltc", "ltc official", "litecoin foundation", "ltc foundation"]
+    },
+    {
+      "id": 2,
+      "title": "Litecoin",
+      "web2": {
+        "url": "https://litecoin.com",
+        "description": "Official Litecoin website"
+      },
+      "web3": null,
+      "browser": {
+        "defaultTab": "web2",
+        "web2Locked": false,
+        "web3Locked": true
+      },
+      "searchTags": ["litecoin", "ltc", "ltc official", "litecoin.com"]
+    },
+    {
+      "id": 3,
+      "title": "LitVM Ecosystem",
+      "web2": null,
+      "web3": {
+        "url": "https://testnet.litvm.com",
+        "description": "LitVM Testnet Ecosystem Portal"
+      },
+      "browser": {
+        "defaultTab": "web3",
+        "web2Locked": true,
+        "web3Locked": false
+      },
+      "searchTags": ["litvm", "ecosystem", "testnet", "portal", "liteforge", "litvm testnet"]
+    },
+    {
+      "id": 4,
+      "title": "ZNS Connect",
+      "web2": null,
+      "web3": {
+        "url": "https://zns.bio",
+        "description": "Web3 Domain Identity on LitVM"
+      },
+      "browser": {
+        "defaultTab": "web3",
+        "web2Locked": true,
+        "web3Locked": false
+      },
+      "searchTags": ["zns", "domain", "identity", "litvm", "zns connect", "web3 domain"]
+    },
+    {
+      "id": 5,
+      "title": "LitVM DEX Hub",
+      "web2": null,
+      "web3": {
+        "url": "https://clob.litvmswap.com",
+        "description": "LitVM Hybrid DEX (CLOB)"
+      },
+      "browser": {
+        "defaultTab": "web3",
+        "web2Locked": true,
+        "web3Locked": false
+      },
+      "searchTags": ["dex", "swap", "litvmswap", "defi", "litvm", "clob", "hybrid dex"]
+    }
+  ]
+}

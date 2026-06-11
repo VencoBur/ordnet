@@ -1,0 +1,17 @@
+{
+  "name": "ordnet-indexer",
+  "version": "0.1.0",
+  "description": "Off-chain indexer for OrdNET (scans Litecoin Ordinals, extracts dual-index JSON, feeds OrdinalReassembler on LitVM)",
+  "main": "src/indexer.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/indexer.js",
+    "dev": "node --watch src/indexer.js",
+    "sync-once": "node src/indexer.js --once",
+    "verify": "node src/verify-indexer.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1"
+  }
+}

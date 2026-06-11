@@ -1,0 +1,10 @@
+{
+  "name": "OrdNET - Universal Browser",
+  "short_name": "OrdNET",
+  "description": "Web2 + Web3 unified interface with Litecoin Ordinal shards on LitVM",
+  "theme_color": "#0F172A",
+  "background_color": "#0F172A",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": []
+}
