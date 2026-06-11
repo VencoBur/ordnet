@@ -99,7 +99,7 @@ The inscribed JSON contains the full dual-index (Web2 + Web3) for 5 shards. This
 ![Web2 Locked](Web2-locked.png)
 
 ### Web3 View (ZNS Connect example)
-![Web3 View](wWeb3-load.png)
+![Web3 View](Web3-load.png)
 
 ### Web2 View (litecoin.com example)
 ![Web3 View](Web2-load.png)
